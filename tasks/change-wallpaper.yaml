@@ -10,4 +10,4 @@
 
 - name: set wallpaper
   shell:
-    cmd: pcmanfm --set-wallpaper="~/appearance/wallpaper.jpg"
+    cmd: pcmanfm --set-wallpaper="/home/pi/appearance/wallpaper.jpg"
