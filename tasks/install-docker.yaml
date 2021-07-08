@@ -1,4 +1,4 @@
 - name: Install Docker
-    shell:
-      cmd: curl -sSL https://get.docker.com | sh
-    tags: installation, docker
+  shell:
+    cmd: curl -sSL https://get.docker.com | sh
+  tags: installation, docker
