@@ -1,12 +1,12 @@
 - name: Creates directory for wallpaper
   file:
-    path: ~/appearance
+    path: /home/pi/appearance
     state: directory
 
 - name: copy wallpaper
   copy:
     src: ./files/wallpaper.jpg
-    dest: ~/appearance
+    dest: /home/pi/appearance
 
 - name: set wallpaper
   shell:
