@@ -5,7 +5,7 @@
 
 - name: copy wallpaper
   copy:
-    src: ./files/wallpaper/jpg
+    src: ./files/wallpaper.jpg
     dest: ~/appearance
 
 - name: set wallpaper
