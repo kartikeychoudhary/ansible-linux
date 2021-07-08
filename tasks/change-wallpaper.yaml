@@ -1,0 +1,13 @@
+- name: Creates directory for wallpaper
+  file:
+    path: ~/appearance
+    state: directory
+
+- name: copy wallpaper
+  copy:
+    src: ./files/wallpaper/jpg
+    dest: ~/appearance
+
+- name: set wallpaper
+  shell:
+    cmd: pcmanfm --set-wallpaper="~/appearance/wallpaper.jpg"

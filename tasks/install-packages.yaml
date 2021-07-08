@@ -1,0 +1,11 @@
+- name: install packages 
+    package:
+      name:
+        - python3
+        - python3-pip
+        - python3-dev
+        - libffi-dev
+        - libssl-dev
+        - docker-compose
+        - tmux
+        - vim-nox
