@@ -3,11 +3,11 @@
   connection: local
   become: true
 
-  - tasks:
-    - include: tasks/apt-get-update.yaml
-    - include: tasks/apt-get-upgrade.yaml
-    - include: tasks/install-docker.yaml
-    - include: tasks/environment.yaml
-    - include: tasks/install-packages.yaml
-    - include: tasks/change-wallpaper.yaml
+  tasks:
+  - include: tasks/apt-get-update.yaml
+  - include: tasks/apt-get-upgrade.yaml
+  - include: tasks/install-docker.yaml
+  - include: tasks/environment.yaml
+  - include: tasks/install-packages.yaml
+  - include: tasks/change-wallpaper.yaml
   
